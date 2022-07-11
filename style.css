@@ -3,14 +3,16 @@
     padding: 0;
     
     
+    
 }
 .header{
    background-image: linear-gradient(to bottom, rgba(255,255,0,0.1), rgba(0,0,255,0.1)),url(./image/Rectangle\ 1.jpg);
    background-repeat: no-repeat;
    height: 800px;
    width: 100%;
-   margin: 0;
+   margin: 0px 5px 0 0px;
    background-size: cover;
+   background-position: center;
 }
 .header h1{
     top: 100px;
@@ -130,31 +132,162 @@
     padding: 30px 300px;
     text-align: justify;
 }
-.frame{
-    display: flex;
-    margin: 50px 50px 0 100px;
-}
 .frame-1{
+    position: relative;
     display: flex;
-    margin: 50px 100px 0 10px;
+    left: -80px;
+}
+.frame{
+    margin: 50px 0 20px 400px;
+    padding: 30px;
+    background-color: beige;
+    height: 120px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.77);
+}
+.frame h3{
+    padding: 10px 0 0 50px;
     
+}
+.frame p{
+    padding: 10px 0 0 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.frame img{
+    position: relative;
+    top: -100px;
+    left: -10px;
     
 }
-.frame-donation{
-    padding: 20px 100px 0 100px;
-    border: 2px solid blue;
-    margin: 50px 50px 0 120px;
+.help{
+    margin: 50px 160px 0px 30px;
+    padding: 40px;
+    background-color: beige;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.77);
     
 }
-.frame-donation img{
-    position: relative;
-    left: -70px;
+.help h3{
+    padding: 0px 0 0 50px;
 }
-.frame-donation h3{
-    position: relative;
-    top: 20px;
+.help p{
+    padding-left: 50px;
+    padding-top: 10px;
+    text-align: justify;
 }
-.frame-donation p{
+
+.help img{
     position: relative;
-    top: -30px;
+    top: -100px;
+    left: -20px; 
+    
+}
+.frame-2{
+    display: flex;
+    position: relative;
+    left: -80px;
+
+}
+.frame1{
+    margin: 0px 0 20px 400px;
+    padding: 30px;
+    background-color: beige;
+    height: 120px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.77);
+}
+.frame1 h3{
+    padding: 10px 0 0 50px;
+    
+}
+.frame1 p{
+    padding: 10px 0 0 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.frame1 img{
+    position: relative;
+    top: -100px;
+    left: -10px;
+    
+}
+.help-1{
+    margin: 0px 160px 0px 30px;
+    padding: 40px;
+    background-color: beige;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.77);
+    
+}
+.help-1 h3{
+    padding: 0px 0 0 50px;
+}
+.help-1 p{
+    padding-left: 50px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.help-1 img{
+    position: relative;
+    top: -100px;
+    left: -20px;
+   
+}
+.reward{
+    display: flex;
+    margin: 50px 0 20px 40px;
+}
+.reward-1 img{
+    width: 370px;
+    height: 250px;
+    margin-left: 100px;
+    border-radius: 5px;
+    box-shadow: -3px 2px 16px 3px rgba(0,0,0,0.92);
+
+}
+.reward-2 img{
+    width: 370px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: -3px 2px 16px 3px rgba(0,0,0,0.92);
+}
+.reward-3 img{
+    width: 370px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: -3px 2px 16px 3px rgba(0,0,0,0.92);
+}
+.apple-1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.apple-1 h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding: 20px 0 0 520px;
+    width: 300px;
+    margin-top: 50px;   
+}
+.apple-1 p{
+    font-size: 20px;
+    padding: 10px 350px 0 350px;
+    color: gray;  
+}
+.fund{
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+}
+.fund-1 {
+   
+    background-color: bisque;
+    border-radius: 10px;   
 }
