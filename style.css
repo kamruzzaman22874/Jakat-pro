@@ -1,9 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
-    
-    
-    
+    padding: 0;  
 }
 .header{
    background-image: linear-gradient(to bottom, rgba(255,255,0,0.1), rgba(0,0,255,0.1)),url(./image/Rectangle\ 1.jpg);
