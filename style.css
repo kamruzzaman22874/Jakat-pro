@@ -40,6 +40,10 @@
     font-weight: 700;
     font-size: 20px;    
 }
+.donate:hover{
+    background-color: rgb(141, 136, 130);
+    color: rgb(8, 53, 54);
+}
 .middle{
     display: flex;
 }
@@ -80,6 +84,11 @@
     font-weight: 700;
     font-size: 20px;  
 }
+.donate-1:hover{
+    background-color: rgb(141, 136, 130);
+    color: rgb(8, 53, 54);
+}
+
 .third{
     display: flex;
     margin: 100px 20px 0 100px;
@@ -113,6 +122,10 @@
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 50px;  
+}
+.donate-2:hover{
+    background-color: rgb(141, 136, 130);
+    color: rgb(8, 53, 54);
 }
 .donation{
     margin: 100px 0 0 100px;
@@ -363,6 +376,9 @@
     font-size: 17px;
     color: red;
 }
+.zakat-donate:hover{
+    color: rgb(8, 53, 54);
+}
 .zakat-donate-1{
     text-decoration: none;
     position: relative;
@@ -371,6 +387,9 @@
     font-size: 17px;
     color: red;
 }
+.zakat-donate-1:hover{
+    color: rgb(8, 53, 54);
+}
 .zakat-donate-2{
     text-decoration: none;
     position: relative;
@@ -378,6 +397,9 @@
     top: 40px;
     color: red;
     font-size: 17px;
+}
+.zakat-donate-2:hover{
+    color: rgb(8, 53, 54);
 }
 .fund-1 hr{
     position: relative;
